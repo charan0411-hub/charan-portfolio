@@ -1,0 +1,47 @@
+body{
+     background-color: #0F172A;
+}
+.hedding{
+    color:#F8FAFC;
+    font-variant: small-caps;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.abme{
+    position: absolute;
+    margin-top:0px;
+    padding-left: 35px;
+    padding-right: 35px;                       
+    padding-top: 1px;
+    height: 100%;
+}
+.pr{
+    color:#F8FAFC;
+    font-size: 24px;
+}
+.nav{
+    text-decoration:solid;
+    margin-left:88%;
+    position:relative;
+    top: 0;
+    background-color: transparent;
+    opacity: 5px;
+    padding: 0px;
+}
+.nav a{
+    color:#F8FAFC;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav a:hover{
+    color:#2563EB;
+}
+.button{
+   background-color: #2563EB;
+   padding: 0px 15px 0px 15px;
+   column-gap: 15px;
+   border-radius: 25px;
+   margin-right: 35px;
+   font-size: large;
+   block-size:50px;
+}
