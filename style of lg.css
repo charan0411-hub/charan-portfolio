@@ -21,14 +21,24 @@ body{
     width: 250px;
     height: 250px;
 }
+.btn1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    margin: 25px 0px 50px 0px;
+}
 .button{
    background-color: #2563EB;
-   padding: 7px;
-   column-gap: 15px;
+   padding: 7px 4px 7px 4px;
    border-radius: 7px;
-   margin-right: 35px;
    font-size: large;
+   cursor:pointer;
 }
+.about{margin: 3px 0px 70px 0px;}
+.skills{margin: 70px 0px 70px 0px;}
+.projects{margin: 70px 0px 70px 0px;}
+.contact{margin: 70px 0px 70px 0px;}
+
 
 .button2{
    position: relative;
@@ -42,6 +52,7 @@ body{
    margin:25px;
    border-radius:50px;
    transition:.5s;
+   cursor:pointer;
 }
 .button2:hover{
     background-color: #456ae1;
@@ -107,4 +118,13 @@ body{
     color:#F8FAFC;
     font-size: 10px;
     text-align:end;
+    margin: 70px 0px 0px 0px;
+}
+.hidden{
+   background-color:transparent;
+   padding:0px;
+   border-radius: 0px;
+   color:#0F172A;
+   border-color:transparent;
+   cursor:pointer;
 }
