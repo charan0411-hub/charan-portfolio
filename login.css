@@ -6,23 +6,24 @@
     height:90vh;  
 }
 #popup{
-    width: 300px;
-    height: 200px;
-    background-color: #333;
-    border: 5px solid   #2563EB;
-    margin: 50px 0px 0px 50px ;
+    width: 250px;
+    height: 300px;
+    background-color:transparent;
+    border: 5px solid   #25324d;
+    align-items: center;
     padding: 25px;
     border-radius: 35px;
 }
 .gap{
     padding-bottom:25px;
+    padding-top:25px;
 }
 #display1{
-    width: 80%;
+    width: 83%;
     height: 20px;
-    color: #000000;
+    color: #1c1218;
     text-align: center;
-    font-size:18px;
+    font-size:15px;
     font-weight:bold;
     border:none;
 }
@@ -30,17 +31,17 @@
     background-color: #2563EB;
     border-radius: 5px;
     padding:5px 30px 5px 30px;
-     cursor:pointer;
+    cursor:pointer;
 }
 .login{
     margin:80px;
-    padding: 0px 0px 0px 10px;
+    padding: auto;
 }
 .entery{
     padding:10px;
     padding-left: 40px;
 }
-#cl{
+/*#cl{
     background-color: hsl(281, 75%, 60%);
     border-radius: 0px;
     border:none;
