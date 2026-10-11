@@ -28,19 +28,31 @@ body{
 }
 .nav{
     text-decoration:solid;
-    margin-left:88%;
+    margin-left:87%;
     position:relative;
     top: 0;
     background-color: transparent;
     opacity: 5px;
     padding: 0px;
+    gap: 18px;
 }
 .nav a{
     color:#F8FAFC;
     text-decoration: none;
     font-size: 22px;
+    
 }
 .nav a:hover{
+    color:#2563EB;
+}
+.wa a{
+    color:#F8FAFC;
+    text-decoration: none;
+    font-size: 22px;
+ 
+    
+}
+.wa a:hover{
     color:#2563EB;
 }
 .button{

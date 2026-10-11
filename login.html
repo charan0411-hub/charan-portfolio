@@ -6,21 +6,13 @@
     <title>login</title>
     <link rel="stylesheet" href="login.css">
 </head>
-<body id="body">
-   
-    <div id="popup">
-      
-      
-        <div class="entery">
-            <div class="gap"> <input  id="display1" placeholder="Status" readonly></div>
-
-            <input type="password" id="password" placeholder="Enter Password" id="display">
-       </div>
-
-
-       <div class="login"> <button id="lg" onclick="login()">login</button>
-
-
+<body>
+   <div class="container">
+    <div class="pop">
+    <div class="status"> <input type="text" readonly id="display1" placeholder="" ></div>
+    <div class="enter"><input class="password" type="password" id="password" placeholder="Enter password"></div>
+    <input class="button" onclick="login()" type="submit" id="login"></div>
+    </div>
     </div>
     <script src="login.js"></script>
 </body>
